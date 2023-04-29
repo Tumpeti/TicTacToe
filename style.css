@@ -1,0 +1,21 @@
+*{
+ border-collapse: collapse;
+ 
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.elem{
+    
+    height: 200px;
+    width: 200px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.elem:hover{
+    background-color: rgb(194, 191, 191);
+}
